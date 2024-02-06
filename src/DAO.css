@@ -1,0 +1,83 @@
+.dao-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.propose {
+    display: flex;
+    flex-direction: column;
+}
+
+.proposals {
+    display: flex;
+    justify-content: start;
+    overflow-x: scroll;
+    gap: 8px;
+}
+
+.proposal-button {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0 0 8px 8px;
+
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-proposal-button {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0 0 0 8px;
+
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.right-proposal-button {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0 0 8px 0;
+
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.proposal-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.request {
+    display: flex;
+    gap: 8px;
+}
+
+.end-button {
+    width: 324px;
+    border: 1px solid black;
+    border-radius: 0 0 8px 8px;
+
+    padding: 8px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}

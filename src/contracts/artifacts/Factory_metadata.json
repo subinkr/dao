@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "DAOs",
+				"outputs": [
+					{
+						"internalType": "contract DAO",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					}
+				],
+				"name": "createContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getContracts",
+				"outputs": [
+					{
+						"internalType": "contract DAO[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTitles",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "titles",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Factory.sol": "Factory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DAO.sol": {
+			"keccak256": "0x02aae9533cffb3039a3d0d8b6b5a1ef37740f7758949c43024a56beb95896e23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cce4ab98d0c50a3d4743268ba59de81c2dc2e0189feb58366866fec8eb620747",
+				"dweb:/ipfs/Qmd8avi4bMnGRGUif9vgWSRrH4XyU5zFqtRnHQ7rT6bGMo"
+			]
+		},
+		"Factory.sol": {
+			"keccak256": "0xdc6918f1a0a6f775b82902aa5b19b71c95768d9d674578681ccda74af320fd91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca91cdabce38790ee9e6f010ea1cf7e88b5ed88f8029facb17ecd4dfd65bdef7",
+				"dweb:/ipfs/QmaNip1jCWGUTMmZLrcBC6qATTr3ySMBbrmbdzNVKqbwg1"
+			]
+		}
+	},
+	"version": 1
+}
